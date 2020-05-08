@@ -13,5 +13,4 @@ import io.cucumber.junit.CucumberOptions;
 				glue = "stepDefinitions",
 				plugin = {"pretty", "html:reports"})
 public class testRunner {
-
 }

@@ -1,0 +1,11 @@
+2020-05-08 21:25:50,522 +0530 [main] INFO  (steps.java:37) - open application using url: http://demo.guru99.com/V4/
+2020-05-08 21:25:51,867 +0530 [main] INFO  (steps.java:43) - enter login credentials
+2020-05-08 21:26:12,860 +0530 [main] INFO  (steps.java:37) - open application using url: http://demo.guru99.com/V4/
+2020-05-08 21:26:18,615 +0530 [main] INFO  (steps.java:43) - enter login credentials
+2020-05-08 21:26:18,985 +0530 [main] INFO  (steps.java:50) - click on login button
+2020-05-08 21:26:19,128 +0530 [main] INFO  (steps.java:69) - click on new account link
+2020-05-08 21:26:30,257 +0530 [main] INFO  (steps.java:76) - fill new account details
+2020-05-08 21:26:30,664 +0530 [main] INFO  (steps.java:84) - click on add account button
+2020-05-08 21:26:32,255 +0530 [main] INFO  (steps.java:90) - validation test of successfull added account
+2020-05-08 21:26:32,276 +0530 [main] INFO  (steps.java:96) - capture screenshot
+2020-05-08 21:26:32,643 +0530 [main] INFO  (steps.java:62) - close browser

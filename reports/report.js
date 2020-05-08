@@ -9,6 +9,9 @@ formatter.background({
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "Open chorme browser",
   "keyword": "Given "
