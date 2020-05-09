@@ -43,3 +43,13 @@
 2020-05-09 09:25:23,295 +0530 [main] INFO  (steps.java:62) - click on login button
 2020-05-09 09:25:29,860 +0530 [main] INFO  (steps.java:108) - capture screenshot
 2020-05-09 09:25:29,991 +0530 [main] INFO  (steps.java:74) - close browser
+2020-05-09 11:28:02,892 +0530 [main] INFO  (steps.java:49) - open application using url: http://demo.guru99.com/V4/
+2020-05-09 11:28:19,608 +0530 [main] INFO  (steps.java:55) - enter login credentials
+2020-05-09 11:28:19,794 +0530 [main] INFO  (steps.java:62) - click on login button
+2020-05-09 11:28:36,011 +0530 [main] INFO  (steps.java:115) - click on deposit link
+2020-05-09 11:28:42,509 +0530 [main] INFO  (steps.java:122) - enter account number
+2020-05-09 11:28:42,579 +0530 [main] INFO  (steps.java:124) - add amount to be deposited
+2020-05-09 11:28:42,641 +0530 [main] INFO  (steps.java:126) - added description
+2020-05-09 11:28:42,720 +0530 [main] INFO  (steps.java:132) - click on add deposit button
+2020-05-09 11:28:46,128 +0530 [main] INFO  (steps.java:108) - capture screenshot
+2020-05-09 11:28:46,272 +0530 [main] INFO  (steps.java:74) - close browser
