@@ -5,6 +5,7 @@ Feature: Manager login options
 		When After launching application enter username "mngr259062" and password "UsuhagY"
     	And After that enter click on login button
     	
+   	@skip
 	Scenario: Add new account
 		Then Click on new account link
     	Then fill new account form
@@ -12,3 +13,12 @@ Feature: Manager login options
     	And Verify success message with "Account Generated Successfully!!!"
     	When After test is complete capture screenshot
     	Then Close the application and browser
+    
+    @execute
+    Scenario: Deposit into account
+    	When Click on deposit link
+    	Then Add details of amount to be submitted
+    	And Click on deposit submit button
+    	When After test is complete capture screenshot
+    	Then Close the application and browser
+    	

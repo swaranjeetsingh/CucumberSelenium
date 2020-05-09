@@ -9,16 +9,16 @@ import org.openqa.selenium.support.ui.Select;
 
 import utils.WaitHelper;
 
-public class AddAccount {
+public class addAccount {
 	WebDriver driver;
     WaitHelper waitHelper;
     
-    public AddAccount(WebDriver driver) {
+    public addAccount(WebDriver driver) {
         this.driver = driver;
         waitHelper = new WaitHelper(driver);
     }
 
-    @FindBy(how = How.LINK_TEXT, using = "New Account")@CacheLookup
+    @FindBy(how = How.LINK_TEXT, using = "New addAccount")@CacheLookup
     WebElement newAccountLink;
     @FindBy(how = How.NAME, using = "cusid")@CacheLookup WebElement customerIDTextBox;
     @FindBy(how = How.NAME, using = "selaccount")@CacheLookup WebElement accountTypeDropDown;

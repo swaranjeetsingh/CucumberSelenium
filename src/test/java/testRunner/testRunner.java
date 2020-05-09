@@ -6,11 +6,12 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "./features/addAccount.feature",
+@CucumberOptions(features = "./features/account.feature",
 				strict = true,
-				dryRun = false, 
+				dryRun = true, 
 				monochrome = true,
 				glue = "stepDefinitions",
-				plugin = {"pretty", "html:reports"})
+				plugin = {"pretty", "html:reports"},
+				tags = "@execute")
 public class testRunner {
 }
